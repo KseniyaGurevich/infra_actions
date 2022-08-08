@@ -61,7 +61,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: kurvinkl/infra_actions:v8.8.2022
+          tags: kurvinkl/infra_actions:latest
 
   deploy:
     runs-on: ubuntu-latest
